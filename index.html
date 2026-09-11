@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Seth Ng'ang'a — Software Engineer & Website Creator</title>
+  <meta name="description" content="Portfolio of Seth Ng'ang'a, software engineer and freelance website creator. I build fast, beautiful, conversion-focused websites." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="#home" class="nav__logo">Seth Ng'ang'a<span>.</span>dev</a>
+      <nav class="nav__menu" id="navMenu">
+        <a href="#about" class="nav__link">About</a>
+        <a href="#skills" class="nav__link">Skills</a>
+        <a href="#work" class="nav__link">Work</a>
+        <a href="#services" class="nav__link">Services</a>
+        <a href="#contact" class="nav__link nav__cta">Let's Talk</a>
+      </nav>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="home">
+    <div class="hero__bg">
+      <div class="hero__grid"></div>
+      <div class="hero__glow hero__glow--1"></div>
+      <div class="hero__glow hero__glow--2"></div>
+    </div>
+    <div class="container hero__inner">
+      <p class="hero__eyebrow reveal">Software Engineer &nbsp;·&nbsp; Website Creator</p>
+      <h1 class="hero__title reveal">
+        I build <span class="grad">fast, beautiful</span><br />
+        websites that <span class="grad">convert.</span>
+      </h1>
+      <p class="hero__subtitle reveal">
+        I'm Seth Ng'ang'a — a full-stack engineer who turns ideas into high-performance
+        websites and web apps. Whether you need a blog, an e-commerce store, or a
+        custom web application, I ship pixel-perfect, SEO-ready products.
+      </p>
+      <div class="hero__actions reveal">
+        <a href="#work" class="btn btn--primary">View My Work</a>
+        <a href="#services" class="btn btn--ghost">Hire Me →</a>
+      </div>
+      <div class="hero__stats reveal">
+        <div class="stat"><span class="stat__num" data-count="3">0</span>+ <span class="stat__label">Years Experience</span></div>
+        <div class="stat"><span class="stat__num" data-count="10">0</span>+ <span class="stat__label">Projects Shipped</span></div>
+        <div class="stat"><span class="stat__num" data-count="20">0</span>+ <span class="stat__label">Happy Clients</span></div>
+        <div class="stat"><span class="stat__num" data-count="99">0</span>% <span class="stat__label">Lighthouse Score</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MARQUEE ============ -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span>JavaScript</span><span>WordPress</span><span>WooCommerce</span><span>PHP</span><span>MySQL</span><span>Python</span><span>HTML</span><span>CSS</span>
+      <span>JavaScript</span><span>WordPress</span><span>WooCommerce</span><span>PHP</span><span>MySQL</span><span>Python</span><span>HTML</span><span>CSS</span>
+    </div>
+  </div>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section__head reveal">
+        <p class="section__tag">01 — About</p>
+        <h2 class="section__title">Engineer by trade,<br /><span class="grad">creator at heart.</span></h2>
+      </div>
+      <div class="about__grid">
+        <div class="about__card reveal">
+          <div class="about__avatar">AC</div>
+          <h3>Seth Ng'ang'a</h3>
+          <p class="about__role">Full-Stack Software Engineer</p>
+          <div class="about__meta">
+            <p>📍 Remote — Worldwide</p>
+            <p>✉️ s1335last14301@gmail.com</p>
+            <p>💼 Available for freelance</p>
+          </div>
+          <a href="#contact" class="btn btn--primary btn--sm">Download Resume</a>
+        </div>
+        <div class="about__text reveal">
+          <p>
+            For the past 3+ years I've helped startups, agencies, and entrepreneurs ship
+            products they're proud of. My sweet spot is the intersection of clean code and
+            thoughtful design — websites that load in a blink, rank well on Google, and
+            turn visitors into customers.
+          </p>
+          <p>
+            As a website creator, I handle everything end-to-end: strategy, UX/UI design,
+            development, deployment, and ongoing maintenance. You bring the vision; I bring
+            the engineering rigor to make it real.
+          </p>
+          <ul class="about__points">
+            <li><strong>Performance-first</strong> — 95+ Lighthouse scores, sub-second loads</li>
+            <li><strong>SEO baked in</strong> — semantic markup, schema, Core Web Vitals</li>
+            <li><strong>Honest communication</strong> — weekly updates, no surprises</li>
+            <li><strong>Long-term support</strong> — I don't disappear after launch</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section class="section section--alt" id="skills">
+    <div class="container">
+      <div class="section__head reveal">
+        <p class="section__tag">02 — Skills</p>
+        <h2 class="section__title">My technical <span class="grad">toolbox.</span></h2>
+      </div>
+      <div class="skills__grid">
+        <div class="skill reveal">
+          <div class="skill__head"><span>Frontend — HTML / CSS</span><span>95%</span></div>
+          <div class="skill__bar"><div class="skill__fill" style="--w:95%"></div></div>
+        </div>
+        <div class="skill reveal">
+          <div class="skill__head"><span>WordPress Theme & Plugin Development</span><span>92%</span></div>
+          <div class="skill__bar"><div class="skill__fill" style="--w:92%"></div></div>
+        </div>
+        <div class="skill reveal">
+          <div class="skill__head"><span>Backend — JavaScript / PHP / MySQL</span><span>90%</span></div>
+          <div class="skill__bar"><div class="skill__fill" style="--w:90%"></div></div>
+        </div>
+        <div class="skill reveal">
+          <div class="skill__head"><span>UI/UX Design — Custom</span><span>85%</span></div>
+          <div class="skill__bar"><div class="skill__fill" style="--w:85%"></div></div>
+        </div>
+        <div class="skill reveal">
+          <div class="skill__head"><span>DevOps & Deployment — AWS / CI-CD</span><span>80%</span></div>
+          <div class="skill__bar"><div class="skill__fill" style="--w:80%"></div></div>
+        </div>
+        <div class="skill reveal">
+          <div class="skill__head"><span>SEO & Performance Optimization</span><span>88%</span></div>
+          <div class="skill__bar"><div class="skill__fill" style="--w:88%"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ WORK ============ -->
+  <section class="section" id="work">
+    <div class="container">
+      <div class="section__head reveal">
+        <p class="section__tag">03 — Work</p>
+        <h2 class="section__title">Selected <span class="grad">projects.</span></h2>
+      </div>
+      <div class="work__grid">
+        <article class="project reveal">
+          <div class="project__visual project__visual--1">🛒</div>
+          <div class="project__body">
+            <div class="project__tags"><span>Next.js</span><span>Stripe</span><span>PostgreSQL</span></div>
+            <h3>ShopSphere — E-commerce Platform</h3>
+            <p>A headless e-commerce storefront with real-time inventory, one-click checkout, and a 40% lift in conversion after relaunch.</p>
+            <div class="project__links"><a href="#">Case Study →</a><a href="#">Live Site ↗</a></div>
+          </div>
+        </article>
+        <article class="project reveal">
+          <div class="project__visual project__visual--2">📊</div>
+          <div class="project__body">
+            <div class="project__tags"><span>React</span><span>D3.js</span><span>Node.js</span></div>
+            <h3>MetricsHub — Analytics Dashboard</h3>
+            <p>A real-time analytics SaaS dashboard visualizing 1M+ events/day, with customizable widgets and team reporting.</p>
+            <div class="project__links"><a href="#">Case Study →</a><a href="#">Live Site ↗</a></div>
+          </div>
+        </article>
+        <article class="project reveal">
+          <div class="project__visual project__visual--3">🍽️</div>
+          <div class="project__body">
+            <div class="project__tags"><span>WordPress</span><span>WooCommerce</span><span>ACF</span></div>
+            <h3>Bella Cucina — Restaurant Group</h3>
+            <p>A custom WordPress theme for a 12-location restaurant group, with online reservations, menus, and multilingual support.</p>
+            <div class="project__links"><a href="#">Case Study →</a><a href="#">Live Site ↗</a></div>
+          </div>
+        </article>
+        <article class="project reveal">
+          <div class="project__visual project__visual--4">🏦</div>
+          <div class="project__body">
+            <div class="project__tags"><span>TypeScript</span><span>GraphQL</span><span>AWS</span></div>
+            <h3>Ledgerly — Fintech Web App</h3>
+            <p>A secure invoicing and expense-tracking web app for freelancers, with bank-level encryption and automated tax reports.</p>
+            <div class="project__links"><a href="#">Case Study →</a><a href="#">Live Site ↗</a></div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SERVICES ============ -->
+  <section class="section section--alt" id="services">
+    <div class="container">
+      <div class="section__head reveal">
+        <p class="section__tag">04 — Services</p>
+        <h2 class="section__title">Let's build something <span class="grad">great together.</span></h2>
+        <p class="section__sub">Fixed-scope packages with transparent pricing. Custom quotes always available.</p>
+      </div>
+      <div class="services__grid">
+        <div class="service reveal">
+          <div class="service__icon">⚡</div>
+          <h3>Landing Page / Portfolio</h3>
+          <p class="service__price">from <strong>$75</strong></p>
+          <ul>
+            <li>1–3 pages, mobile-first design</li>
+            <li>SEO & performance optimization</li>
+            <li>Contact form + analytics setup</li>
+            <li>Delivery in 7 days</li>
+          </ul>
+          <a href="#contact" class="btn btn--ghost btn--sm">Get Started</a>
+        </div>
+        <div class="service service--featured reveal">
+          <div class="service__badge">Most Popular</div>
+          <div class="service__icon">🚀</div>
+          <h3>Business Website</h3>
+          <p class="service__price">from <strong>$400</strong></p>
+          <ul>
+            <li>Up to 8 custom-designed pages</li>
+            <li>Custom WordPress theme or Next.js</li>
+            <li>CMS — edit content yourself</li>
+            <li>Blog, testimonials & booking forms</li>
+            <li>30 days post-launch support</li>
+          </ul>
+          <a href="#contact" class="btn btn--primary btn--sm">Get Started</a>
+        </div>
+        <div class="service reveal">
+          <div class="service__icon">🏗️</div>
+          <h3>Custom Web Application</h3>
+          <p class="service__price">from <strong>$750</strong></p>
+          <ul>
+            <li>Full-stack development (React + Node)</li>
+            <li>Auth, payments, databases, APIs</li>
+            <li>Scalable cloud deployment</li>
+            <li>Ongoing maintenance plans</li>
+          </ul>
+          <a href="#contact" class="btn btn--ghost btn--sm">Get Started</a>
+        </div>
+      </div>
+
+      <div class="process reveal">
+        <h3 class="process__title">How I work</h3>
+        <div class="process__steps">
+          <div class="step"><span>1</span><h4>Discover</h4><p>A free 30-min call to understand your goals, audience, and budget.</p></div>
+          <div class="step"><span>2</span><h4>Design</h4><p>Wireframes and a visual direction you approve before any code is written.</p></div>
+          <div class="step"><span>3</span><h4>Develop</h4><p>Weekly progress updates. You see the site evolve on a staging link.</p></div>
+          <div class="step"><span>4</span><h4>Deploy</h4><p>Launch, handover docs, training video, and 30 days of free support.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TESTIMONIALS ============ -->
+  <section class="section" id="testimonials">
+    <div class="container">
+      <div class="section__head reveal">
+        <p class="section__tag">05 — Testimonials</p>
+        <h2 class="section__title">What clients <span class="grad">say.</span></h2>
+      </div>
+      <div class="quotes__grid">
+        <blockquote class="quote reveal">
+          <p>"Seth rebuilt our store from scratch and conversion jumped 40% in the first month. Best investment we made all year."</p>
+          <footer><strong>Sarah Lindqvist</strong><span>Founder, Bloom Cosmetics</span></footer>
+        </blockquote>
+        <blockquote class="quote reveal">
+          <p>"Rare combination: a developer who actually understands design and deadlines. Delivered early, with zero hand-holding needed."</p>
+          <footer><strong>Marcus Webb</strong><span>CEO, Webb & Partners</span></footer>
+        </blockquote>
+        <blockquote class="quote reveal">
+          <p>"Our old site took 8 seconds to load. Seth's rebuild loads in under one. Our Google rankings have never been better."</p>
+          <footer><strong>Priya Nair</strong><span>Marketing Director, FitLab</span></footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section section--alt" id="contact">
+    <div class="container contact__grid">
+      <div class="contact__info reveal">
+        <p class="section__tag">06 — Contact</p>
+        <h2 class="section__title">Have a project in mind? <span class="grad">Let's talk.</span></h2>
+        <p class="section__sub">Tell me about your project and I'll reply within 24 hours with next steps and a ballpark quote.</p>
+        <div class="contact__channels">
+          <p>✉️ &nbsp;<a href="mailto:s1335last14301@gmail.com">s1335last14301@gmail.com</a></p>
+          <p>💬 &nbsp;<a href="#">Book a free 30-min call ↗</a></p>
+          <p>🐙 &nbsp;<a href="#">https://github.com/Zaytov3n ↗</a></p>
+          <p>💼 &nbsp;<a href="#">www.linkedin.com/in/seth-n-6861aa3b3 ↗</a></p>
+        </div>
+      </div>
+      <form class="contact__form reveal" id="contactForm" novalidate>
+        <div class="field"><label for="name">Your Name</label><input type="text" id="name" name="name" placeholder="Jane Doe" required /></div>
+        <div class="field"><label for="email">Email</label><input type="email" id="email" name="email" placeholder="jane@company.com" required /></div>
+        <div class="field"><label for="budget">Budget</label>
+          <select id="budget" name="budget">
+            <option>Under $75</option><option selected>$75 – $400</option><option>$400 – $750</option><option>$750+</option>
+          </select>
+        </div>
+        <div class="field"><label for="message">Project Details</label><textarea id="message" name="message" rows="5" placeholder="Tell me what you want to build…" required></textarea></div>
+        <button type="submit" class="btn btn--primary">Send Message →</button>
+        <p class="form__status" id="formStatus"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a href="#home" class="nav__logo">Seth Ng'ang'a<span>.</span>dev</a>
+      <p>© 2026 Seth Ng'ang'a. Built with care, coffee & clean code.</p>
+      <a href="#home" class="footer__top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
